@@ -31,7 +31,7 @@ const Courses = (props) => {
 
     return (
         <div>
-            <h2 className='mb-3'>Get choice of your course</h2>
+            <h2 className='mb-3'>Recommended For You</h2>
             {/* start - courses container */}
             <Row lg={4} className="g-4">
                 {

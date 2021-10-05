@@ -1,8 +1,11 @@
-.img-gradient{
-  position:relative;
-  /* display:inline-block; */
+#header-img{
+  width: 100%;
+  border-radius: 10px;
 }
 
+.img-gradient{
+  position:relative;
+}
 .img-gradient:after {
   content:'';
   position:absolute;
@@ -10,11 +13,11 @@
   left:0; top:0;
   width:100%; 
   height:100%;
-  /* display:inline-block; */
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
-  
 }
-
-/* .img-gradient img{
-  display:block;
-} */
+.info-text{
+  color: #e9e9e9;
+}
+#btn-get-started{
+  background-color: #e9e9e9;
+}

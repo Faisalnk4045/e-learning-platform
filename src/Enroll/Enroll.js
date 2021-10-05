@@ -20,7 +20,7 @@ const Enroll = () => {
             const savedCart = getStoredCart();
             const storedCart = [];
             for (const key in savedCart) {
-                
+
                 const addedProduct = courses.find(course => course.id === Number(key));
                 if (addedProduct) {
                     storedCart.push(addedProduct);
@@ -29,18 +29,18 @@ const Enroll = () => {
             setCart(storedCart);
         }
     }, [courses])
-    
+
     return (
         <div>
-            {cart.length === 0 ? <div style={{ marginBottom: '500px', textAlign: 'center' }}><h1>Currently you're not registered for any course.</h1></div>: ''}
-            <Row lg={3} className="g-4">
+            {cart.length === 0 ? <div style={{ marginBottom: '500px', textAlign: 'center' }}><h1>Currently you're not registered for any course.</h1></div> : <h2 className='mb-4'>Welcome back <span className='text-success'>Martha</span>, ready for your next lesson?</h2>}
+            <Row lg={4} className="g-4">
                 {
-                    cart.map(item => <EnrolledCourse 
-                    key={item.id}
-                    course={item}></EnrolledCourse>)
+                    cart.map(item => <EnrolledCourse
+                        key={item.id}
+                        course={item}></EnrolledCourse>)
                 }
             </Row>
-            
+
         </div>
     );
 };

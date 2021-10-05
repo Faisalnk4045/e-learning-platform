@@ -9,9 +9,9 @@ const EnrolledCourse = (props) => {
                 <Card.Img variant="top" className='img-fluid ' src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-                    <Card.Text><small>by: {instructor}</small></Card.Text>
+                    <Card.Text className='text-muted mb-4'><small>by: {instructor}</small></Card.Text>
                     <Card.Text>duration: {duration}</Card.Text>
-                    <Button variant='outline-secondary' className='w-100'>Continue course</Button>
+                    <Button variant='dark' className='w-100'>Continue course</Button>
                 </Card.Body>
             </Card>
         </Col>

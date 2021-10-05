@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Introduction to Modern Brush Calligraphy",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/aa05c0a934508e0409ecd64e1dac032b/original",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/10e018b787acd42d49255b7ba4a74245/original",
         "price": 13.99,
         "instructor": "Kimberly Shrack",
         "students": 11871,
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "4 Easy Steps to Modern Calligraphy",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/9ad9815da59cdf0e208feb3a49a348ab/original",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/d1ccdc02ca639ca1e362c8ba77f172da/original",
         "price": 14.99,
         "instructor": "Peggy Dean",
         "students": 37305,
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Create Faux Modern Lettering Like the Pros",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/efcec62ddf9409a94753858e2a4926db/original",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/76a07840f19cd17f2c0da0ed07c88c65/original",
         "price": 24.99,
         "instructor": "Peggy Dean",
         "students": 11871,
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "name": "Introduction to Modern Script Calligraphy",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/3756600748001/original",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/9d2e34c7d71f833f9dc34db00fec1023/original",
         "price": 15.99,
         "instructor": "Bryn Chernoff",
         "students": 33796,
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "name": "Anyone Can Brush Letter: Modern Calligraphy For Complete Beginners",
+        "name": "Modern Calligraphy For Complete Beginners",
         "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/41f2cd7d616980ac2cddd3dc53757d01/original",
         "price": 20.99,
         "instructor": "Yasmina Creates",
@@ -51,8 +51,8 @@
     },
     {
         "id": 6,
-        "name": "Improve Your Handwriting: Strategies for Better Form, Legibility, and Speed",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/4229371857501744c79489e327e2ccf0/original",
+        "name": "Improve Your Handwriting: Strategies for Better Form",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/d20b3ad472cb0bf44e6019c51f459c92/original",
         "price": 29.99,
         "instructor": "Kimberly Shrack",
         "students": 11871,
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "name": "Modern Brush-Lettering & Calligraphy: From Sketch to Screen",
+        "name": "Modern Brush-Lettering & Calligraphy",
         "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/7c92a65c90bbe35b5f8b941abe8a53a8/original",
         "price": 10.99,
         "instructor": "Cat Coquillette",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "name": "Calligraphy Essentials: From First Script to Final Flourish",
+        "name": "Calligraphy Essentials: From First Script",
         "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/afa6e287c15bd7012f608281163b6d78/original",
         "price": 14.99,
         "instructor": "Kimberly Shrack",
@@ -101,7 +101,7 @@
     },
     {
         "id": 11,
-        "name": "Strong Lines: Getting Comfortable with the Pilot Parallel Calligraphy Pen",
+        "name": "Getting Started with Pilot Parallel Calligraphy Pen",
         "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/5f938044029a7776136e16af67073b98/original",
         "price": 12.99,
         "instructor": "Alice Young",
@@ -111,8 +111,8 @@
     },
     {
         "id": 12,
-        "name": "Calligraphy Envelope Exchange: Ultimate Guide to Creating Beautiful Snail Mail",
-        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/5a55e0847b13dc8bce405b102b0cf9a1/original",
+        "name": "Calligraphy Envelope Exchange: Ultimate Guide",
+        "img": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/84e0bc92676939d703a10e7941257b73/original",
         "price": 19.99,
         "instructor": "Liz Jung",
         "students": 149,

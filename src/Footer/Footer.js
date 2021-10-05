@@ -16,7 +16,6 @@ const Footer = () => {
                         <div><small>Blog</small></div>
                         <div><small>Affiliates</small></div>
                         <div><small>Partnership</small></div>
-
                     </Col>
                     <Col>
                         <p>Community</p>
@@ -46,12 +45,12 @@ const Footer = () => {
                 <hr />
                 <div className='d-flex justify-content-between'>
                     <div>
-                        KNACK, Inc. 2021
+                        © 2021 Knack Inc. All rights reserved.
                     </div>
                     <div>
-                        <i class="fab fa-facebook-square fs-4 text-muted"></i>
-                        <i class="fab fa-instagram-square fs-4 text-muted mx-3"></i>
-                        <i class="fab fa-twitter-square fs-4 text-muted"></i>
+                        <i className="fab fa-facebook-square fs-4 text-muted"></i>
+                        <i className="fab fa-instagram-square fs-4 text-muted mx-3"></i>
+                        <i className="fab fa-twitter-square fs-4 text-muted"></i>
                     </div>
                 </div>
             </Container>

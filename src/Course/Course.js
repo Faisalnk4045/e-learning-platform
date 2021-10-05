@@ -3,20 +3,23 @@ import { Card, Col, Button } from 'react-bootstrap';
 
 const Course = (props) => {
     // destructuring course data and event handler
-    const { name, img, price, instructor} = props.course;
+    const { name, img, price, instructor, duration } = props.course;
     const { handleAddToCart } = props;
 
     return (
         <div>
             {/* start - course component */}
-            <Col className='h-100'>
-                <Card className='p-0'>
-                    <Card.Img style={{width: '448px', height: '190px'}} variant="top" className='img-fluid' src={img} />
+            <Col>
+                <Card className='p-0 shadow-sm'>
+                    <Card.Img style={{ width: '448px', height: '190px' }} variant="top" className='img-fluid' src={img} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
-                        <Card.Text><small>by: {instructor}</small></Card.Text>
-                        <Card.Text>Price: ${price}</Card.Text>
-                        <Button onClick={() => handleAddToCart(props.course)} variant='outline-secondary' className='w-100'>Enroll now</Button>
+                        <Card.Text><small className='text-muted'>by: {instructor}</small></Card.Text>
+                        <div className='d-flex justify-content-between mt-4'>
+                            <Card.Text><i className="far fa-clock"></i> {duration}</Card.Text>
+                            <Card.Text className='fw-bold'>${price}</Card.Text>
+                        </div>
+                        <Button onClick={() => handleAddToCart(props.course)} variant='outline-dark' className='w-100'>Enroll now</Button>
                     </Card.Body>
                 </Card>
             </Col>

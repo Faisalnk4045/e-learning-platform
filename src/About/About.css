@@ -1,0 +1,12 @@
+p{
+    text-align: justify;
+    line-height: 2;
+}
+.btn-join{
+    border: 2px solid rgb(0,86,210);
+    color: rgb(0,86,210);
+}
+.more-info{
+    background-color: #ebf3ff;
+    color: rgb(0,86,210);
+}
